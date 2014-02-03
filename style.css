@@ -31,7 +31,6 @@
 .rfw_dock img{
 	float:right !important;
 	text-align:center;
-	max-height:100px;
 }
 .rfw_dock div.image_only{
 	width:100%;
