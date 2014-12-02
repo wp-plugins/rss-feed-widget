@@ -1,6 +1,6 @@
 ﻿=== RSS Feed Widget ===
 
-Contributors: Fahad Mahmood
+Contributors: fahadmahmood
 Donate link: http://goo.gl/GHX5N
 Tags: rss, feeds, rss feeds, RSS Feed Widget, rss slider, image slider, feed slider, feed widget, widget slider
 
