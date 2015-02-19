@@ -3,15 +3,15 @@
 
 
 
-Plugin Name: RSS Feed Widget
+Plugin Name: Retailer Connect
 
 
 
-Plugin URI: http://www.websitedesignwebsitedevelopment.com/wordpress/widgets/rss-feed-widget
+Plugin URI: http://www.websitedesignwebsitedevelopment.com/wordpress/widgets/retailer-connect
 
 
 
-Description: RSS Feed Widget with customizable slider. Feed title, description, image and many other things which you can control.
+Description: Retailer Connect Widget.
 
 
 
@@ -42,34 +42,29 @@ License: GPL3
     
 
 
-    function register_rfw_scripts() {
+    function register_rc_scripts() {
             
 			
 			
 			
 			wp_enqueue_script(
-				'rfw-script',
+				'rc-script',
 				plugins_url('functions.js', __FILE__),
 				array( 'jquery' )
 			);
 			
-			wp_enqueue_script(
-				'rfw-slider-script',
-				plugins_url('jquery.bxslider.js', __FILE__),
-				array( 'jquery' )
-			);			
 
-            wp_register_style('rfw-style', plugins_url('style.css', __FILE__));
-			wp_register_style('rfw-slider-style', plugins_url('jquery.bxslider.css', __FILE__));
+            wp_register_style('rc-style', plugins_url('style.css', __FILE__));
+	
+	
+			wp_enqueue_style( 'rc-style' );
 			
-			wp_enqueue_style( 'rfw-style' );
-			wp_enqueue_style( 'rfw-slider-style' );
  
         }
 	
         
-	add_action( 'wp_enqueue_scripts', 'register_rfw_scripts' );
+	add_action( 'wp_enqueue_scripts', 'register_rc_scripts' );
 
-	add_action( 'widgets_init', 'rfw_init');
+	add_action( 'widgets_init', 'rc_init');
 
 	
