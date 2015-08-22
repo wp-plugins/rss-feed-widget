@@ -6,7 +6,7 @@ Tags: rss, feeds, rss feeds, RSS Feed Widget, rss slider, image slider, feed sli
 
 Requires at least: 3.0
 Tested up to: 3.7
-Stable tag: 1.2
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 RSS Feed Widget with customizable slider. Feed title, description, image and many other things which you can control.
